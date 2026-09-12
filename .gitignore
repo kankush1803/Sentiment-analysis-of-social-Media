@@ -39,5 +39,9 @@ build/
 # Jupyter
 .ipynb_checkpoints/
 
+# Node dependencies
+node_modules/
+npm-debug.log*
+
 # Note: models/ are tracked in this repo for demo purposes.
 # For larger models, add: models/*.pkl

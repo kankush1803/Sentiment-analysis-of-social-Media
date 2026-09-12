@@ -1,0 +1,28 @@
+{
+  "name": "socialsentinel",
+  "version": "1.0.0",
+  "description": "Social Media Sentiment & Reputation Intelligence CLI",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "socialsentinel": "./bin/socialsentinel.js"
+  },
+  "scripts": {
+    "start": "node bin/socialsentinel.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": [
+    "nlp",
+    "sentiment-analysis",
+    "social-media",
+    "cli",
+    "reputation-intelligence"
+  ],
+  "author": "Antigravity",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0"
+  }
+}
